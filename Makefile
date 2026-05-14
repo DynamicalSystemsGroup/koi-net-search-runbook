@@ -35,13 +35,13 @@ SIMILARITY_THRESHOLD ?= 0.0
 TIMEOUT ?= 45
 
 # Canonical repo URLs
-REPO_COORDINATOR = https://github.com/BlockScience/koi-net-coordinator-node.git
-REPO_HACKMD = https://github.com/BlockScience/koi-net-hackmd-sensor-node.git
-REPO_GITHUB = https://github.com/BlockScience/koi-net-github-sensor-node.git
-REPO_NORMALIZER = https://github.com/BlockScience/koi-net-text-normalizer-node.git
-REPO_TEXT_SEARCH = https://github.com/BlockScience/koi-net-text-search-node.git
-REPO_VECTOR_SEARCH = https://github.com/BlockScience/koi-net-vector-search-node.git
-REPO_GENERAL_SEARCH = https://github.com/BlockScience/koi-net-general-search-node.git
+REPO_COORDINATOR = https://github.com/DynamicalSystemsGroup/koi-net-coordinator-node.git
+REPO_HACKMD = https://github.com/DynamicalSystemsGroup/koi-net-hackmd-sensor-node.git
+REPO_GITHUB = https://github.com/DynamicalSystemsGroup/koi-net-github-sensor-node.git
+REPO_NORMALIZER = https://github.com/DynamicalSystemsGroup/koi-net-text-normalizer-node.git
+REPO_TEXT_SEARCH = https://github.com/DynamicalSystemsGroup/koi-net-text-search-node.git
+REPO_VECTOR_SEARCH = https://github.com/DynamicalSystemsGroup/koi-net-vector-search-node.git
+REPO_GENERAL_SEARCH = https://github.com/DynamicalSystemsGroup/koi-net-general-search-node.git
 
 .PHONY: help \
 	clone env-init env-check set-shared-password configure-github configure-hackmd \
