@@ -124,7 +124,7 @@ make set-shared-password PASSWORD='replace-with-strong-secret'
 ```bash
 make configure-github \
   GITHUB_API_TOKEN='ghp_...' \
-  GITHUB_REPOSITORIES='BlockScience/rid-lib,sayertindall/koi-net-demo'
+  GITHUB_REPOSITORIES='DynamicalSystemsGroup/rid-lib,sayertindall/koi-net-demo'
 ```
 
 ### 2.3 Configure HackMD sensor (token + optional workspace/note filters)
